@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_220sdp"
+    android:layout_height="@dimen/_230sdp"
+    android:paddingBottom="@dimen/_20sdp"
+    android:background="@color/colorWhite"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Save User"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/square_button_blue"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:textAlignment="center"
+        android:text="Silahkan isi username anda"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Usernamela"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:maxLength="10"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            />
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:textColor="#29CA7C"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
